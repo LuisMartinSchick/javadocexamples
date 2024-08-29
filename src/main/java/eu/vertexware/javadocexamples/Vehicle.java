@@ -35,7 +35,7 @@ public class Vehicle {
     /**
      * Stops the vehicle.
      *
-     * <p>If the vehicle is moving (speed > 0), an IllegalStateException is thrown.
+     * <p>If the vehicle is moving (speed &gt; 0), an IllegalStateException is thrown.
      * Otherwise, sets the started flag to false and prints a message indicating that the vehicle has stopped.</p>
      *
      * @throws IllegalStateException if the vehicle is moving

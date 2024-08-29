@@ -28,7 +28,7 @@ public class Car extends Vehicle {
     /**
      * Start the car manually, by cranking the starter.
      * Used for cars that have crankstarts. (Older than 1950)
-     * </hr><p>
+     * <p>
      * <em>Steps to crank-start a car: </em>
      * <ol>
      *     <li>Hand-Crank the starter</li>
