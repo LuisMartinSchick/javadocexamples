@@ -47,4 +47,12 @@ public class Car extends Vehicle {
         System.out.println("Cranking the starter...");
         start();
     }
+
+    /**
+     * {@inheritDoc}
+     */
+    @Override
+    public void start() {
+        System.out.println("Car started");
+    }
 }
