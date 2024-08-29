@@ -3,7 +3,9 @@ package eu.vertexware.javadocexamples;
 /**
  * The Car class represents a car, which is a type of vehicle.
  *
- * <p>This class extends the {@link eu.vertexware.javadocexamples.Vehicle} class and adds additional functionality specific to cars, such as honking the horn ({@link #honk()}) and crank-starting the engine ({@link #crankStart()}).</p>
+ * <p>This class extends the {@link eu.vertexware.javadocexamples.Vehicle} class and adds
+ * additional functionality specific to cars, such as honking the horn ({@link #honk()})
+ * and crank-starting the engine ({@link #crankStart()}).</p>
  *
  * @since 1.0
  * @version 1.1

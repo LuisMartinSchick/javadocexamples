@@ -35,7 +35,8 @@ public class Vehicle {
     /**
      * Stops the vehicle.
      *
-     * <p>If the vehicle is moving (speed > 0), an IllegalStateException is thrown. Otherwise, sets the started flag to false and prints a message indicating that the vehicle has stopped.</p>
+     * <p>If the vehicle is moving (speed > 0), an IllegalStateException is thrown.
+     * Otherwise, sets the started flag to false and prints a message indicating that the vehicle has stopped.</p>
      *
      * @throws IllegalStateException if the vehicle is moving
      * @since 1.0
@@ -112,6 +113,7 @@ public class Vehicle {
     /**
      * Calculates the fuel efficiency of the vehicle based on distance traveled and fuel consumed.
      * The formula for fuel efficiency is <code>distance / fuelConsumed</code>.
+     * <p>Example usage: {@code double fuelEfficiency = vehicle.calculateFuelEfficiency(100.0, 5.0);}</p>
      *
      * @param distance the distance traveled in kilometers
      * @param fuelConsumed the amount of fuel consumed in liters
